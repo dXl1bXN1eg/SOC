@@ -11,3 +11,42 @@ https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export
 
 cd C:\Windows\System32\Sysmon\
 sysmon.exe -accepteula -i sysmonconfig-export.xml
+
+# Kurulum tamamlandıktan sonra Sysmon loglarına 
+# Windows Olay Günlüğü üzerinden 
+                                 -> Application and Services Logs 
+                                 -> Microsoft 
+                                 -> Windows  
+                                 -> Sysmon  
+Operational adımlarından ulaşılabilirsiniz.
+
+# Sysmon Eventlarını incelemeye başlamadan önce, 
+# komut satırından komutların geldiğini görmek daha sağlıklı olucaktır.
+
+Event ID 1: Process creation
+Event ID 2: A process changed a file creation time
+Event ID 3: Network connection
+Event ID 4: Sysmon service state changed
+Event ID 5: Process terminated
+Event ID 6: Driver loaded
+Event ID 7: Image loaded
+Event ID 8: CreateRemoteThread
+Event ID 9: RawAccessRead
+Event ID 10: ProcessAccess
+Event ID 11: FileCreate
+Event ID 12: RegistryEvent (Object create and delete)
+Event ID 13: RegistryEvent (Value Set)
+Event ID 14: RegistryEvent (Key and Value Rename)
+Event ID 15: FileCreateStreamHash
+Event ID 16: ServiceConfigurationChange
+Event ID 17: PipeEvent (Pipe Created)
+Event ID 18: PipeEvent (Pipe Connected)
+Event ID 19: WmiEvent (WmiEventFilter activity detected)
+Event ID 20: WmiEvent (WmiEventConsumer activity detected)
+Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)
+Event ID 22: DNSEvent (DNS query)
+Event ID 23: FileDelete (File Delete archived)
+Event ID 24: ClipboardChange (New content in the clipboard)
+Event ID 25: ProcessTampering (Process image change)
+Event ID 26: FileDeleteDetected (File Delete logged)
+Event ID 255: Error
