@@ -4,7 +4,6 @@
 └─$ Local Security Policy (gpedit.msc)
 └─$ Siem (agent)
 └─$ Sysmon
-
 ```
 
 # Windows Güvenlik Ürünleri
@@ -26,4 +25,6 @@
 
 ```
 └─$ HSTS (HTTP Strict Transport Security)
+└─$ DHCP Snooping
+└─$ Dynamic ARP Inspection (DAI)
 ```
