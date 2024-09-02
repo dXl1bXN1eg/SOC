@@ -1,0 +1,8 @@
+yerel güvenlik ilkesi --> windowsun yerel log kaynağının açılması gerekiyor
+
+gpedit.msc            --> yerel güvenlik ilkesine girer
+
+olay görüntüleyicisi --> windowsun kendi loglarını görüntüleyebildiğimiz ekran
+
+
+
