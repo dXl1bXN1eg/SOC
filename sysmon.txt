@@ -1,4 +1,6 @@
+# Öncelikle Sysmon ve config dosyalarını indirmemiz gerekiyor.
 
 https://download.sysinternals.com/files/Sysmon.zip
+https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export.xml
 
 C:\Windows\System32\Sysmon\
