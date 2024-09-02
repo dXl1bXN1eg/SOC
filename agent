@@ -1,26 +1,35 @@
 SIEM Ürünleri ve Agent'ların Kullanımı
 
     SIEM Ürünü Seçimi:
-        Bir SIEM ürünü satın aldığınızda, ürünün ne tür veri topladığını, analiz yeteneklerini ve bulut tabanlı mı yoksa yerel mi çalıştığını dikkate almanız önemlidir. Örneğin, Splunk, Elastic Stack (ELK), IBM QRadar, ArcSight gibi ürünler popüler SIEM çözümlerindendir.
+        Bir SIEM ürünü satın aldığınızda, ürünün ne tür veri topladığını, 
+        analiz yeteneklerini ve bulut tabanlı mı yoksa yerel mi çalıştığını dikkate almanız önemlidir. 
+        Örneğin, Splunk, Elastic Stack (ELK), IBM QRadar, ArcSight gibi ürünler popüler SIEM çözümlerindendir.
 
     Agent Yükleme:
-        SIEM ürünleri genellikle bir "agent" sağlar. Bu agent, sistemlerinizdeki çeşitli olayları ve log verilerini toplar ve SIEM sistemine iletir. Bu agent'lar Windows, Linux, ve diğer işletim sistemleri için uygun olabilir.
-        Windows sistemlere agent yüklemek genellikle bir yükleyici dosyasını çalıştırmak ve gerekli yapılandırmaları yapmakla mümkündür. Bu işlem sırasında, agent'ın logları nereye göndereceği, hangi tür verilerin toplanacağı gibi ayarları yaparsınız.
+        SIEM ürünleri genellikle bir "agent" sağlar. Bu agent, sistemlerinizdeki çeşitli olayları ve log verilerini toplar ve 
+        SIEM sistemine iletir. Bu agent'lar Windows, Linux, ve diğer işletim sistemleri için uygun olabilir.
+        Windows sistemlere agent yüklemek genellikle bir yükleyici dosyasını çalıştırmak ve gerekli yapılandırmaları yapmakla mümkündür. 
+        Bu işlem sırasında, agent'ın logları nereye göndereceği, hangi tür verilerin toplanacağı gibi ayarları yaparsınız.
 
     Logların Buluta Taşınması:
         Bir SIEM ürünü bulut tabanlıysa, agent'lar topladıkları logları bulut üzerindeki SIEM platformuna gönderir. Bu, verilerin bulut ortamında saklanmasını ve analiz edilmesini sağlar.
         Bulut tabanlı SIEM çözümleri, veri merkezi maliyetlerini azaltabilir ve ölçeklenebilirlik sağlar. Ancak, verilerin güvenliği ve gizliliği konusunda da dikkatli olmanız gerekebilir.
 
     Veri Analizi ve İzleme:
-        Log verileri SIEM sistemine iletildikten sonra, SIEM platformu bu verileri analiz eder, korelasyon kurar, alarmlar oluşturur ve raporlar sunar. Bu, güvenlik olaylarını tespit etmenizi ve yönetmenizi sağlar.
+        Log verileri SIEM sistemine iletildikten sonra, SIEM platformu bu verileri analiz eder, korelasyon kurar, 
+        alarmlar oluşturur ve raporlar sunar. Bu, güvenlik olaylarını tespit etmenizi ve yönetmenizi sağlar.
 
     Konfigürasyon ve Bakım:
-        Agent’lar ve SIEM platformu arasındaki iletişimi doğru yapılandırmak önemlidir. Ayrıca, agent'ların düzenli olarak güncellenmesi ve bakımının yapılması da gereklidir.
+        Agent’lar ve SIEM platformu arasındaki iletişimi doğru yapılandırmak önemlidir. 
+        Ayrıca, agent'ların düzenli olarak güncellenmesi ve bakımının yapılması da gereklidir.
 
 Örnek Bir Süreç:
 
-    Splunk: Splunk, bir Windows sistemine "Universal Forwarder" adı verilen bir agent yükleyerek logları toplar. Bu loglar daha sonra Splunk Cloud veya Splunk Enterprise'a gönderilir.
+    Splunk: Splunk, bir Windows sistemine "Universal Forwarder" adı verilen bir agent yükleyerek logları toplar. 
+            Bu loglar daha sonra Splunk Cloud veya Splunk Enterprise'a gönderilir.
 
-    Elastic Stack (ELK): Elastic Stack için "Beats" ve "Logstash" gibi araçlar kullanılabilir. Windows sistemlere bu araçları yükleyerek ve yapılandırarak verileri Elastic Cloud'a gönderebilirsiniz.
+    Elastic Stack (ELK): Elastic Stack için "Beats" ve "Logstash" gibi araçlar kullanılabilir. 
+            Windows sistemlere bu araçları yükleyerek ve yapılandırarak verileri Elastic Cloud'a gönderebilirsiniz.
 
-    IBM QRadar: QRadar, QRadar WinCollect adı verilen bir agent kullanır. Bu agent Windows sistemlerden logları toplar ve QRadar sistemine iletir.
+    IBM QRadar: QRadar, QRadar WinCollect adı verilen bir agent kullanır. 
+            Bu agent Windows sistemlerden logları toplar ve QRadar sistemine iletir.
