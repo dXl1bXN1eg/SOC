@@ -1,8 +1,13 @@
-yerel güvenlik ilkesi --> windowsun yerel log kaynağının açılması gerekiyor
+# Windowsun yerel log kaynağının açılması gerekiyor.
+  Yerel Güvenlik İlkesi (gpedit.msc) 
+  - Bu sayfada istediğiniz log katagorisindeki bölümlere
+    tik atarak loglarını aktif edebilirsiniz.
 
-gpedit.msc            --> yerel güvenlik ilkesine girer
 
-olay görüntüleyicisi --> windowsun kendi loglarını görüntüleyebildiğimiz ekran
+# Windowsun kendi loglarını görüntüleyebildiğimiz ekran.
+  Olay Görüntüleyicisi 
+
+# (Event Log Explorer) indirip daha detaylı analiz yapabilirsiniz. 
 
 
 
