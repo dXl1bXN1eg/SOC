@@ -1,1 +1,4 @@
 
+https://download.sysinternals.com/files/Sysmon.zip
+
+C:\Windows\System32\Sysmon\
