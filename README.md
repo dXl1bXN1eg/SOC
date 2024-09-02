@@ -1,6 +1,8 @@
 # Windows Log Yönetimi
 
 ```
+ Sysmon
+
 
 ```
 
