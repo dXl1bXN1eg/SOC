@@ -12,12 +12,18 @@
 ```
 └─$ Web Aplication Firewall
 └─$ Firewall
+└─$ Antivirüs
+└─$ Windows Defender
 └─$ LoadBalance
-└─$ DLP
 └─$ HİDS
 └─$ NİDS
 └─$ EDR
 └─$ XDR
-└─$ 
+└─$ DLP
+```
 
+# Güvenlik Politikaları
+
+```
+└─$ HSTS (HTTP Strict Transport Security)
 ```
