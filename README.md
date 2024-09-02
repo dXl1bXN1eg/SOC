@@ -1,13 +1,24 @@
 # Windows Log Yönetimi
 
 ```
- Sysmon
-
+└─$ Local Security Policy (gpedit.msc)
+└─$ Siem (agent)
+└─$ Sysmon
 
 ```
 
 # Windows Güvenlik Ürünleri
 
 ```
+└─$ Web Aplication Firewall
+└─$ Firewall
+└─$ LoadBalance
+└─$ DLP
+└─$ HİDS
+└─$ NİDS
+└─$
+└─$
+└─$
+└─$ 
 
 ```
