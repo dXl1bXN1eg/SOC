@@ -11,13 +11,12 @@
 ```
 └─$ Web Aplication Firewall
 └─$ Firewall
-└─$ Antivirüs
+└─$ AV
 └─$ Windows Defender
 └─$ LoadBalance
-└─$ Snort
 └─$ HİDS
 └─$ NİDS
-└─$ EDR
+└─$ EDR Carbon Black
 └─$ XDR
 └─$ DLP
 ```
