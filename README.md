@@ -14,6 +14,7 @@
 └─$ Antivirüs
 └─$ Windows Defender
 └─$ LoadBalance
+└─$ Snort
 └─$ HİDS
 └─$ NİDS
 └─$ EDR
