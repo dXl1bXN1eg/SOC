@@ -72,7 +72,7 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 ``Winlog.event_data.CurrentDirectory:"C:\Users\Administrator\Download"``  
 
 
-# Windows Powershell Event Code 
+# Event Code 
 
 [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
 
