@@ -1,9 +1,7 @@
 # SOC - 101
 
 
-### Elastic Download
-
-[Ctrl + Click](https://www.elastic.co/guide/en/kibana/current/deb.html)
+### Elastic Download [Tıkla](https://www.elastic.co/guide/en/kibana/current/deb.html)
 
 
 ### İlk Adım
