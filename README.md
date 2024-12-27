@@ -12,23 +12,7 @@
 
 ### İlk Tespit
 
-``Suncuumu client mı sormamız gerekiyor
-sunucu ise 
-şirket te önce sunuculara firewal kurulur 
-case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
-``
-
-``kimler erişebilir``
-
-``üzerinde özel bir servis varmı``
-
-``bağlı olduğu uygulama varmı.``
-
-`` ilgili sistemin ip adresi hostnamei ve domaine dahilmi kontrol edilmeli.``
-
-``**Sistemde şüpheli bir aktivite görüp bilgisayar kapatıldımı. (Memoride tutulan bilgileri kaçırmış oluruz eğer kapatılmışsa) ``
-
-`` .``
+``*``
 
 
 ### Sonrası
