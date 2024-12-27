@@ -1,19 +1,15 @@
-# Event Code Example
+# SOC - 101
 
-https://www.elastic.co/guide/en/kibana/current/deb.html
+## Elastic Download
 
+``https://www.elastic.co/guide/en/kibana/current/deb.html``
+
+
+## İlk Adım
 
 `` Elimizde envanter olması gerekiyor ``
 
-# İlk Tespit
-
-``Sistemd hakkında genel bilgi alınması gerekiyor.``
-
-``Üzerinde agent varmı.``
-
-``Yakın zamanda zafiyet taraması yapıldımı.``
-
-``İnternete çıkoyrumu``
+## İlk Tespit
 
 ``Suncuumu client mı sormamız gerekiyor
 sunucu ise 
@@ -34,7 +30,7 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 `` .``
 
 
-# Sonrası
+## Sonrası
 
 ``Verileri bir formatta indirip ilk aşamada göze çarpan birşey varmı bakılır.``
 
@@ -49,7 +45,7 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 `` .``
 
 
-# Kibana Query Language
+## Kibana Query Language Kural Yazımı
 
 ``event.provider:"Microsoft-Windows-Sysmon"``
 
@@ -72,12 +68,12 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 ``Winlog.event_data.CurrentDirectory:"C:\Users\Administrator\Download"``  
 
 
-# Event Code 
+## Event Code 
 
 [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
 
 
-Antivirus & EDR arasındaki farklar ? 
+## Antivirus & EDR arasındaki farklar ? 
    --
 
 ```
