@@ -3,9 +3,6 @@
 https://www.elastic.co/guide/en/kibana/current/deb.html
 
 
-
-[Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
-
 `` Elimizde envanter olması gerekiyor ``
 
 # İlk Tespit
@@ -77,10 +74,7 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 
 # Windows Powershell Event Code 
 
-```
-4104  
-4103
-```
+[Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
 
 
 Antivirus & EDR arasındaki farklar ? 
