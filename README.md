@@ -1,15 +1,16 @@
 # SOC - 101
 
-## Elastic Download
+
+### Elastic Download
 
 ``https://www.elastic.co/guide/en/kibana/current/deb.html``
 
 
-## İlk Adım
+### İlk Adım
 
 `` Elimizde envanter olması gerekiyor ``
 
-## İlk Tespit
+### İlk Tespit
 
 ``Suncuumu client mı sormamız gerekiyor
 sunucu ise 
@@ -30,7 +31,7 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 `` .``
 
 
-## Sonrası
+### Sonrası
 
 ``Verileri bir formatta indirip ilk aşamada göze çarpan birşey varmı bakılır.``
 
@@ -45,7 +46,7 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 `` .``
 
 
-## Kibana Query Language Kural Yazımı
+### Kibana Query Language Kural Yazımı
 
 ``event.provider:"Microsoft-Windows-Sysmon"``
 
@@ -68,36 +69,8 @@ case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
 ``Winlog.event_data.CurrentDirectory:"C:\Users\Administrator\Download"``  
 
 
-## Event Code 
+### Event Code 
 
 [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
 
 
-## Antivirus & EDR arasındaki farklar ? 
-   --
-
-```
-*  Antivirus malware imza tabanlı.
-   Gelişmiş Antivirüs
-   Makine öğrenmesi ile çağrılan patern Match yapıyor.
-
-*  EDR (Endpoint Detection Response)
-   Yapılan aktivitenin tüm ağacını çıkartır.
-   Kural, korelasyon yapar.
-   Olay sonrası kısmı daha güçlü.
-   Oluşan bütün eventleri, çalışan makroları sistem dosyalarına hangi process e 
-   erişilmiş ise hepsini getirir. Bütün olayı atar.
-   Network aktiviteleri de takip edilir.
-   Process takip, life sykel, yaşam döngüsü.
-   Uzaktan komut çalıştır ve sonuçların yaşam döngüsünü bana logla.
-
-   XDR
-   Farklı endpoint de çalışan olayları birleştirir.
-   Korelasyon yapar binevi.
-   Ajan olmayan makinalardan gelen trafikleri gördüğü için
-   bu makinalarında da alarm üretir
-
-   MDR
-
-   Farklı process id ile işleme devam edersen bu ürünleri atlatabilirsin
-```
