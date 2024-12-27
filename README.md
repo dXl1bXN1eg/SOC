@@ -3,7 +3,7 @@
 
 ### Elastic Download
 
-[Tıkla](https://www.elastic.co/guide/en/kibana/current/deb.html)
+[Ctrl + Click](https://www.elastic.co/guide/en/kibana/current/deb.html)
 
 
 ### İlk Adım
