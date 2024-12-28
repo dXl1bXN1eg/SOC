@@ -24,6 +24,8 @@
 ``message:"Invoke"``  
 ``Winlog.event_data.CurrentDirectory:"C:\Users\Administrator\Download"``  
 
+``host.name:"machine" and log.file.path:"/var/log/audit/audit.log" and process.args :"netstat"``
+
 
 ### Event Code 
 
