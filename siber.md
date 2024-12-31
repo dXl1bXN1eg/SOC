@@ -1,3 +1,2 @@
-## Siber Güvenlik Derslerim
 
-### Çalışma Devam Ediyor ..
+# İçerik Hazırlanıyor ..
